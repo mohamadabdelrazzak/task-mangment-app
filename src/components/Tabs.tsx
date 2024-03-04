@@ -11,16 +11,6 @@ const Tabs = () => {
       
         <div className="tabs">
           <div className="tab nav nav-tabs flex-shrink-0 border-1 distance-x-30">
-            <div className="tab-pane active">
-            <button className="margin-left-30 rounded background-color-blue"><a
-                className={
-                  todosData !== "active" ? activeClass : "" 
-                }
-                href="/"
-              >
-                All
-              </a></button>
-            </div>
             <div className="tab-pane">
             <button className="margin-left-30 rounded"> <a 
                 className={
