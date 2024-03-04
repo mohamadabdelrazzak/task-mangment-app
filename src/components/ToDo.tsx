@@ -17,7 +17,7 @@ const ToDos = () => {
   }
 
   return (
-    <ul className="w-full mt-4 space-y-2" >
+    <ul className="w-full mt-4 space-y-2 " >
       {filterToDo.map((todo) => (
         <li key={todo.id} className="flex items-center gap-2 py-2 border-b border-gray-300 rounded ">
           <input
